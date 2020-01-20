@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: auto;
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean-search {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width:1200px) {
+  .container {
+    max-width: 1500px;
+  }
+}
+
+.navbar-logo {
+  width: 150px;
+}
+
+.navbar.navbar-light.bg-light.navigation-clean-search {
+  font-size: 20px;
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean.navbar-footer {
+  bottom: 0;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  font-size: 30px;
+}
+
+.container.container-footer {
+  width: 80%;
+}
+
+.row.display-column {
+  flex-direction: column;
+}
+
+// category menu
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+.cat {
+  width: 200px;
+  height: 100px;
+  // border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:15% 55%;
+  opacity: .7;
+  transition: .2s;
+  font-family: Montserrat, sans-serif;
+  
+  &:hover{
+    box-shadow: -5px 5px 5px #aaaaaa;
+    cursor: pointer;
+    transition: .2s;
+  
+    
+  }
+  &:hover > desc {
+    // background: rgba(0,0,0,.8);
+    transform: scale(1.3);
+    transition: .2s;
+    
+  }
+  desc {
+    text-align: center;
+    color: white;
+    font-size:1.2rem;
+    font-weight:800;
+    // background: rgba(0,0,0,.7);
+    width: 100%;
+    top: 45%;
+    left: 0;
+    position: absolute;
+    transition: .2s;
+    
+  }
+}
+
+
+.cat-1{
+  background-image: url('https://images.unsplash.com/photo-1510130387422-82bed34b37e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80');
+}
+
+.cat-2{
+  background-image: url('https://images.unsplash.com/photo-1557844352-761f2565b576?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+
+}
+
+.cat-3{
+  background-image: url('https://images.unsplash.com/photo-1486428128344-5413e434ad35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+
+}
+
+
+
+/* Navigation-Clean.css | http://localhost:8000/EzyGrocer/EzyGrocer/assets/css/Navigation-Clean.css */
+
+@media (min-width: 768px) {
+  .navigation-clean {
+    padding-top:0.5rem;
+  padding-bottom:0.5rem; 
+  }
+}
+
+.navigation-clean {
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+}
+
+
