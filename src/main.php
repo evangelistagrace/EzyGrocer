@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>EzyGrocer</title>
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -11,46 +11,145 @@
     <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="../assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="../assets/css/Navigation-with-Search.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+
+
     <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- header -->
     <nav class="navbar navbar-light text-primary bg-light navigation-clean-search">
-        <div class="container-fluid"><i class="fa fa-bars"></i><img class="navbar-logo" src="../assets/img/4.png"><i
+        <div class="container-fluid"><i class="fa fa-bars"></i><img class="navbar-logo" src="../assets/img/7.png"><i
                 class="fa fa-search"></i></div>
     </nav>
 
     <div class="container">
-        <div class="row display-column">
-            <div class="col">
+        <div class="row display-column mt-3">
+            <div class="col display-row">
                 <h5>Search Categories</h5>
+                <small class="text-info">View more >></small>
             </div>
             <div class="col">
                 <div class="row">
                     <div class="col cat cat-1">
-                        <desc>Poultry</desc>
+                        <desc>Beverages</desc>
                     </div>
                     <div class="col cat cat-2">
-                        <desc>Vegetables</desc>
+                        <desc>Bakery</desc>
                     </div>
                     <div class="col cat cat-3">
-                        <desc>Baking</desc>
+                        <desc>Dairy</desc>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col cat cat-4">
+                        <desc>Meat</desc>
+                    </div>
+                    <div class="col cat cat-5">
+                        <desc>Vegetables</desc>
+                    </div>
+                    <div class="col cat cat-6">
+                        <desc>Dry Goods</desc>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col">
+        <div class="row display-column mt-3">
+            <div class="col display-row">
                 <h5>Search Recipes</h5>
+                <small class="text-info">View more >></small>
             </div>
             <div class="col">
-                <div class="row">
-                    <div class="col-3 offset-0"></div>
-                    <div class="col-3 offset-0"></div>
-                    <div class="col-3 offset-0"></div>
-                    <div class="col-3 offset-0"></div>
+                <div class="row recipe-carousel">
+                    <div class="card" style="width: 25%;">
+                        <img class="card-img-top"
+                            src="https://www.simplyrecipes.com/wp-content/uploads/2020/01/Asian-Chicken-Noodle-LEAD-2.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">Chicken Udon Soup</div>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Cook time: 15 minutes</li>
+                                    <li>Yield: 4 Servings</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25%;">
+                        <img class="card-img-top"
+                            src="https://www.simplyrecipes.com/wp-content/uploads/2016/11/2016-12-03-English-Toffee-13-768x1152.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">English Toffee</div>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Cook time: 20 minutes</li>
+                                    <li>Yield: About 40 pieces</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25%;">
+                        <img class="card-img-top"
+                            src="https://www.simplyrecipes.com/wp-content/uploads/2019/06/Spicy-Fried-Chicken-LEAD-3-768x1075.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">Spicy Fried Chicken</div>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Cook time: 30 minutes</li>
+                                    <li>Yield: 4 servings</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25%;">
+                        <img class="card-img-top"
+                            src="https://www.simplyrecipes.com/wp-content/uploads/2014/10/french-toast-horiz-a-1200-768x512.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">French Toast</div>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Cook time: 15 minutes</li>
+                                    <li>Yield: 4 servings</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25%;">
+                        <img class="card-img-top"
+                            src="https://www.simplyrecipes.com/wp-content/uploads/2014/08/banana-bread-vertical-c-1200-768x1152.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">Banana Bread</div>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Cook time: 55 minutes</li>
+                                    <li>Yield: Makes one loaf</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 25%;">
+                        <img class="card-img-top"
+                            src="https://www.simplyrecipes.com/wp-content/uploads/2016/07/2016-08-03-BBQ-Chicken-Bowls-9-768x1151.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <div class="card-title">BBQ Chicken Burrito Bowl</div>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Cook time: 10 minutes</li>
+                                    <li>Yield: 4 servings</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -71,6 +170,22 @@
 
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.recipe-carousel').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                dots: true,
+                arrows: true,
+                autoplay: 5000
+            });
+        });
+    </script>
 </body>
 
 </html>
