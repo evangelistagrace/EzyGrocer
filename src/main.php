@@ -4,28 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>EzyGrocer</title>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="../assets/css/Navigation-Clean.css">
-    <link rel="stylesheet" href="../assets/css/Navigation-with-Search.css">
-    <!-- slick slider -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
-
-
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+    <title>EzyGrocer: Grocery Sharing Made Easy</title>
+    <?php include 'head.php' ?>
 </head>
 
 <body>
     <!-- header -->
-    <nav class="navbar navbar-light text-primary bg-light navigation-clean-search">
-        <div class="container-fluid"><i class="fa fa-bars"></i><img class="navbar-logo" src="../assets/img/7.png"><i
-                class="fa fa-search"></i></div>
-    </nav>
+    <?php include 'header.php' ?>
 
     <div class="container">
         <div class="row display-column mt-3">
@@ -160,18 +145,14 @@
         <div class="container container-footer"><button class="navbar-toggler" data-toggle="collapse"><span
                     class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <ul class="menu-footer">
-                <li><i class="icon ion-android-home"></i></li>
-                <li><i class="icon ion-chatbubble-working"></i></li>
+                <li><a href="main.php"><i class="icon ion-android-home"></i></a></li>
+                <li><a href="template.php"><i class="icon ion-chatbubble-working"></i></a></li>
                 <li><i class="fa fa-shopping-cart"></i></li>
                 <li><i class="fa fa-gear"></i></li>
             </ul>
         </div>
     </nav>
-
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <?php include 'footer.php' ?>
 
     <script>
         $(document).ready(function () {

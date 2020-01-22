@@ -10,10 +10,11 @@ body {
   overflow-x: hidden;
   font-size: 1rem;
   font-family: 'PT Sans', sans-serif;
+  height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Serif', serif;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -207,5 +208,53 @@ h1, h2, h3, h4, h5, h6 {
   height: 25vw;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.trolley-logo {
+  border: 4px solid #e75f58;
+  border-radius: 200px;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.word-logo {
+  width: 220px;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 100%;
+}
+
+/* styles.css | http://127.0.0.1:8000/EzyGrocer/EzyGrocer/assets/css/styles.css */
+.row.display-column.landing {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row.display-column.landing .col {
+  margin-bottom: 5px;
+}
+
+/* bootstrap.min.css | http://127.0.0.1:8000/EzyGrocer/EzyGrocer/assets/bootstrap/css/bootstrap.min.css */
+.col {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  text-align: center;
+}
+
+a.btn {
+  color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */
