@@ -4,6 +4,11 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.btn {
+  font-family: 'PT Sans', sans-serif;
 }
 
 body {
@@ -158,7 +163,6 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url("https://images.unsplash.com/photo-1517646458010-ea6bd9f4a75f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
 }
 
-/* Navigation-Clean.css | http://localhost:8000/EzyGrocer/EzyGrocer/assets/css/Navigation-Clean.css */
 @media (min-width: 768px) {
   .navigation-clean {
     padding-top: 0.5rem;
@@ -210,10 +214,16 @@ h1, h2, h3, h4, h5, h6 {
      object-fit: cover;
 }
 
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .trolley-logo {
   border: 4px solid #e75f58;
   border-radius: 200px;
-  padding: 20px;
+  padding: 15px;
   width: 150px;
   height: 150px;
   margin-bottom: 10px;
@@ -235,7 +245,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
-/* styles.css | http://127.0.0.1:8000/EzyGrocer/EzyGrocer/assets/css/styles.css */
 .row.display-column.landing {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -244,17 +253,45 @@ h1, h2, h3, h4, h5, h6 {
 
 .row.display-column.landing .col {
   margin-bottom: 5px;
-}
-
-/* bootstrap.min.css | http://127.0.0.1:8000/EzyGrocer/EzyGrocer/assets/bootstrap/css/bootstrap.min.css */
-.col {
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
           flex-grow: 0;
   text-align: center;
 }
 
-a.btn {
-  color: #fff;
+.half-background {
+  width: 100%;
+  height: 25vh;
+  border-bottom: 4px solid #e75f58;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.half-background h3:nth-child(1) {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.logo-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -3rem;
+}
+
+.logo-container .trolley-logo {
+  background: white;
+  width: 80px;
+  height: 80px;
+  padding: 8px;
 }
 /*# sourceMappingURL=styles.css.map */
